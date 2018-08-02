@@ -43,5 +43,11 @@
     <Compile Include="super_cs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sub\subproject\subproject.csproj">
+      <Project>{254f57e3-61c9-4c53-92dd-e0bf4dabbcdb}</Project>
+      <Name>subproject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
